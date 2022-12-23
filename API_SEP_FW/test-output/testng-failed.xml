@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="org.testing.testCases.TC7_GetAllRequest2">
+        <methods>
+          <include name="testcase7"/>
+        </methods>
+      </class> <!-- org.testing.testCases.TC7_GetAllRequest2 -->
+      <class name="org.testing.testCases.TC6_PostRequest2">
+        <methods>
+          <include name="testcase6"/>
+        </methods>
+      </class> <!-- org.testing.testCases.TC6_PostRequest2 -->
+      <class name="org.testing.testCases.TC4_PutRequest">
+        <methods>
+          <include name="testcase4"/>
+        </methods>
+      </class> <!-- org.testing.testCases.TC4_PutRequest -->
+      <class name="org.testing.testCases.TC1_PostRequest">
+        <methods>
+          <include name="testcase1"/>
+        </methods>
+      </class> <!-- org.testing.testCases.TC1_PostRequest -->
+      <class name="org.testing.testCases.TC9_PutRequest2">
+        <methods>
+          <include name="testcase9"/>
+        </methods>
+      </class> <!-- org.testing.testCases.TC9_PutRequest2 -->
+      <class name="org.testing.testCases.TC2_GetAllRequest">
+        <methods>
+          <include name="testcase2"/>
+        </methods>
+      </class> <!-- org.testing.testCases.TC2_GetAllRequest -->
+      <class name="org.testing.testCases.TC8_GetParticularRecord2">
+        <methods>
+          <include name="testcase8"/>
+        </methods>
+      </class> <!-- org.testing.testCases.TC8_GetParticularRecord2 -->
+      <class name="org.testing.testCases.TC3_GetParticularRecord">
+        <methods>
+          <include name="testcase3"/>
+        </methods>
+      </class> <!-- org.testing.testCases.TC3_GetParticularRecord -->
+      <class name="org.testing.testCases.TC10_DeleteRequest2">
+        <methods>
+          <include name="testcase10"/>
+        </methods>
+      </class> <!-- org.testing.testCases.TC10_DeleteRequest2 -->
+      <class name="org.testing.testCases.TC5_DeleteRequest">
+        <methods>
+          <include name="testcase5"/>
+        </methods>
+      </class> <!-- org.testing.testCases.TC5_DeleteRequest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
